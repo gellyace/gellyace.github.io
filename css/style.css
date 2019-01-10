@@ -137,9 +137,9 @@ hr {
 	color: #fff;
 }
 .btn-default {
-	color: #fff;
+	color: #121d1f;
 	background-color: transparent;
-	border-color: #fff;
+	border-color: #121d1f;
 	padding: 10px 20px;
 	margin: 0;
 	font-size: 16px;
@@ -172,8 +172,8 @@ hr {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #fff;
-	background: url(../img/top_image.jpg) no-repeat center top;
+	color: #121d1f;
+	background: url(../img/top_banner_bg.jpg) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -195,6 +195,19 @@ hr {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+	display: inline-block;
+}
+#about .skill-name {
+	color: #121d1f;
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 15px;
+}
+
+#about .checkboximg{
+	border-radius: 0;
+	width: 30px;
+	height: 30px;
 	display: inline-block;
 }
 #about p {
@@ -635,7 +648,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: 100%;
 	padding: 0;
 	text-align: left;
-	color: #fff;
+	color: #121d1f;
 }
 .intro H1 {
 	font-size: 60px;
@@ -658,8 +671,9 @@ section {
 	padding: 120px 0;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-top: 480px;
+	padding-bottom: 150px;
+	color: #121d1f;
 }
 .timeline:before {
 	left: 50%;
